@@ -1,0 +1,91 @@
+.imagen{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+    
+}
+
+.imagen-drop{
+    width: 50%;
+    height: 160px;
+    background-color: #fdfdfd;
+    border: 2px dashed #C8C8C8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+.imagen-drop-texto{
+    line-height: 1.4rem;
+}
+
+.texto_o{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+   
+}
+.formulario-login__titulo{
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color:#494545;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.imagen-boton{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-drop-img{
+    width: 50px;
+}
+
+.agregar__imagen__boton,
+.imagen-drop-img__pantalla-mobile{
+    display: none;
+}
+
+.agregar__imagen__boton__texto {
+    border: 1px solid #2A7AE4;
+    padding: 1rem 2rem;
+    color: #2A7AE4;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.agregar__imagen__boton__texto:hover{
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.35);
+}
+
+.formulario-login__input-container input{
+    width: 50%;
+    height: 40px;
+    margin-bottom: 2px;
+}
+
+.boton-formulario-login{
+    width: 50%;
+    height: 40px;
+    background-color: #2A7AE4;
+    border-color: #2A7AE4;
+    color: #fdfdfd;
+    margin-top: 1rem;
+}
+
+/*RESPONSIVE TABLET*/
+
+
+
+
+/*RESPONSIVE IPHONE 8,7 PLUS*/

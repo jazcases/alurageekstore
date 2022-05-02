@@ -1,0 +1,136 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    width: 94%;
+    margin: 0 auto;
+}
+
+body{
+    
+    font-family: 'Raleway', sans-serif;
+}
+/*header*/
+
+
+.header{
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_info{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__input{
+    width: 40%;
+    margin-left: 2rem;
+    padding: .8rem;
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 5rem;
+    font-size: 16px;
+}
+
+.header__lupa{
+    position: relative;
+    left: -35px;
+}
+
+.header__boton{
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    padding: .7rem 2.4rem;
+    border-radius: 5px;
+}
+
+.header__boton:hover{
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.25);
+    text-align: none;
+}
+
+.header__lupa{
+    width: 20px;
+  
+}
+
+
+.header__lupa-mobile{
+    display: none;
+   
+}
+
+
+
+
+/*banner*/
+
+.bannerPromocionales{
+    width: 100%;
+    height: 352px;
+    background-image: url(img/banner-promocional.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+   
+}
+
+.textos{
+    margin-top: 2rem;
+    margin-left: 6rem;
+    padding: auto;
+    color: white;
+    height: 100%;
+    font-size: 2rem;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+    
+}
+.textos input{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 1rem;
+    background-color: #2A7AE4;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+/*titulos generales*/
+
+
+.titulos-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 0 20px;
+    
+}
+.titulos-container h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.titulos-container a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #2A7AE4;
+}
+

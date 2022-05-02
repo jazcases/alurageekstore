@@ -1,0 +1,50 @@
+main{
+background-color: #E5E5E5;
+padding: 20px;
+}
+
+.agregarBoton{
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+.agregarBoton h2{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.agregar-boton{
+    margin: 1rem;
+    height: 40px;
+    width: 130px;
+    background-color: #2A7AE4;
+    border-color: #2A7AE4;
+    color: white;
+}
+
+.container-productos{
+   margin-top: 2rem;
+    display:grid;
+    grid-template-columns: repeat( 6, 1fr);
+    gap: 20px;
+   
+   
+
+}
+/*responsive tablet 768px*/
+
+@media (max-width: 768px) {
+   
+    
+   .container-productos{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        column-gap:.7rem;
+        row-gap: 1rem;
+    }}
+
+      
+ 
